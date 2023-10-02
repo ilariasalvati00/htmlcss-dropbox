@@ -116,7 +116,70 @@ main{
     margin-top: 10px;
 }
 
+.checkbox-piani{
+    margin: auto;
+    width: 70%;
+    padding-top: 80px;
+}
 
+.checkbox-piani label{
+    margin-right: 20px;
+}
+
+.singolo{
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+    border: 1px solid black;
+    padding: 20px 30px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.lista a, .check-blue i{
+    color: #0061ff;
+}
+
+.check-blue{
+    height: 300px;
+}
+
+.check-blue p{
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.space-between-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.piani-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.piani{
+    width: 30%;
+}
 
 
 
