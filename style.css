@@ -3,6 +3,7 @@ header{
     justify-content: space-between;
     align-items:center;
     position: fixed;
+    background-color: white;
     width: 100%;
     height: 49px;
    
@@ -15,6 +16,7 @@ header{
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header-container{
@@ -41,19 +43,80 @@ header{
 
 .button{
     background-color:#0061ff;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
     margin-right: 10px;
     color: white;
     border:none;
     padding: 5px;
+    text-decoration: none;    
 }
 
 main{
-    margin-top: 49px;
+    padding-top: 49px;
+    width: 100%;
 }
 
 .jumbobox{
-background-color: #b4d0e7;
-height: 600px;
+    background-color: #b4d0e7;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+
 }
+
+.jumbobox-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+    height: calc(70% - 40px);
+    margin-top: 40px;
+}
+
+.jumbobox-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+}
+
+.jumbobox-right{
+    width: 70%;
+    height: 100%;
+}
+
+.jumbobox-right img{
+    width: 100%;
+    height:calc(100% + 50px)
+}
+
+.jumbobox-left-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.jumbobox-left-down i{
+    font-size: 25pt;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.jumbobox h1{
+    width: 70%;
+    height: calc(30% - 10px);
+    margin: auto;
+    padding: 10px;
+    padding-right: 10px;
+    font-size: 50pt;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+
+
