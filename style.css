@@ -212,4 +212,44 @@ hr{
     height: 100px;
 }
 
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.box-img{
+    width: 60%;
+}
+
+.box-img img{
+    width: 100%;
+}
+
+.box-content{
+    width: 35%;
+}
+
+.box-content h2, .box-content p, .box-content a{
+  width: 100%;
+  margin-left: 20px;
+}
+
+.a-setting{
+    margin-top: 40px;
+}
+.a-setting a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding:10px
+}
+
+
+
+
+
 
