@@ -129,6 +129,7 @@ main{
 .singolo{
     border: 1px solid black;
     margin-top: 20px;
+    padding: 5px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +137,7 @@ main{
 
 .lista{
     border: 1px solid black;
+    border-top: none;
     padding: 20px 30px;
 }
 
@@ -181,5 +183,33 @@ hr{
     width: 30%;
 }
 
+.team{
+    border: 1px solid black;
+    padding: 5px 30px; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
 
 
