@@ -248,6 +248,28 @@ hr{
     padding:10px
 }
 
+.dropbox-business-container{
+    width: 70%;
+    margin: auto;
+    margin-top:70px;
+}
+
+.blocco-categorie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.categoria{
+    width: 30%;
+}
+
+.categoria img{
+    width:100%
+}
+
 
 
 
