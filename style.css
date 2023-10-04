@@ -332,6 +332,10 @@ hr{
     padding: 30px;
 }
 
+.Designit-container img, .Designit-container p, .Designit-container hr{
+    margin-bottom:20px;
+}
+
 .rosso-scuro{
     background-color: #d50120;
 }
