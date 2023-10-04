@@ -281,6 +281,72 @@ hr{
     display: inline-block;
 }
 
+.pubblicità-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pubblicità{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+}
+
+.pub-item{
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pub-item img{
+    width: 60%;
+    filter: invert(1);
+}
+
+.green{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+.bordeaux{
+    background-color: #61082b;  
+}
+
+.azzurro{
+    background-color: #0093ce;
+}
+
+.rosso{
+    background-color: #ff1c1c;
+}
+
+.Designit-container{
+    background-color: #f5f5f5;
+    width: 30%;
+}
+
+.rosso-scuro{
+    background-color: #d50120;
+}
+
+.celeste{
+    background-color: #b4d0e7;
+}
+
+.blu{
+    background-color: #0d2481;
+}
+
+.giallo{
+    background-color: #ffd830;
+}
+
 
 
 
